@@ -1,0 +1,21 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/flood.jpg);
+    background-position:center;
+    margin-top: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.white{
+    color: white;
+}
+.flood area{
+    color: white;
+    text-align: center;
+}
