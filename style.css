@@ -1,22 +1,26 @@
 body{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+.top_banner{
     background-image: url(img/flood.jpg);
-    background-position:center;
-    margin-top: 90px;
     background-repeat: no-repeat;
     background-size: cover; 
-   
+    padding-bottom: 8%;
+    
 }
  h1{
     color: white;
-    margin-top: 40px;
+    margin-top: 140px;
     font-size: 30px;
     
  }
  h6{
     color: white;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size:small;
     font-weight: normal;
     
@@ -35,10 +39,71 @@ body{
     text-align: center;
     font-size:medium;
     padding-top: 1%;
-    
- }
- .banner-area{
     margin-left: 30%;
     margin-right: 30%;
+    
+ }
+ h2{
+    text-align: center;
+ }
+ .flexible_container{
+    margin-bottom: 50px;
+ }
+ 
+ h5{
+    margin-top: 20px;
+    font-size:small;
+    font-weight: normal;
+    color: grey;
+ }
+ .btn1 {font-size: 15px; font-weight: bolder; }
+.btn2 {font-size: 15px;font-weight: bolder; }
+.btn3 {font-size: 15px;font-weight: bolder; }
+.btn4 {font-size: 15px;font-weight: bolder;}
+.btn5 {font-size: 15px;font-weight: bolder; }
+#pink{
+    color:rgb(244, 79, 50);
+    background-color: rgb(249, 206, 212);
+    border: 1.5px solid rgb(244, 79, 50 );
+   
+}
+.btn {
+    background-color:rgb(244, 240, 240);
+    border: none;
+    color:rgb(120, 116, 116);
+    padding: 2%;
+    text-align: center;
+    
+    text-decoration: none;
+    margin-left: 9%;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    
+  }
+  .form{
+    text-align: center;
 
+  }
+  input{
+    width: 50%;
+    text-align: center;
+    color: rgb(90, 83, 83);
+    background-color:transparent;
+    outline: none;
+    border-top-style:hidden;
+    border-left-style: hidden;
+    border-right-style: hidden ;
+    margin-bottom: 30px;
+  }
+  .donate{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(245, 93, 76), rgb(235, 81, 53));
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    display:inline-block;
+    margin-left: 45%;
+   
  }
