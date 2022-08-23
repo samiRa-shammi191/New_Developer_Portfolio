@@ -3,19 +3,42 @@ body{
     font-family: 'Poppins', sans-serif;
     background-image: url(img/flood.jpg);
     background-position:center;
-    margin-top: 150px;
+    margin-top: 90px;
     background-repeat: no-repeat;
-    background-size: cover;
-  
+    background-size: cover; 
+   
 }
-h1{
-    font-size: 40px;
-    text-align: center;
-}
-.white{
+ h1{
     color: white;
-}
-.flood area{
+    margin-top: 40px;
+    font-size: 30px;
+    
+ }
+ h6{
     color: white;
+    margin-top: 30px;
+    font-size:small;
+    font-weight: normal;
+    
+ }
+ .donate_btn{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    display:inline-block;
+   
+ }
+
+ .banner_content{
     text-align: center;
-}
+    font-size:medium;
+    padding-top: 1%;
+    
+ }
+ .banner-area{
+    margin-left: 30%;
+    margin-right: 30%;
+
+ }
