@@ -47,8 +47,16 @@ body{
     text-align: center;
  }
  .flexible_container{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
+ }
+ .color{
+    color:rgb(89, 130, 7);
+    text-align: left;
+    margin-left: 10px;
+    width: 40%;
+    font-size: medium;
+    font-weight: bold;
  }
  
  h5{
@@ -160,4 +168,35 @@ body{
 h3{
     text-align: left;
     margin-top: 15px;
+}
+
+.maroon{
+background-color: tomato;
+}
+
+.middle_banner{
+
+    width: 100%;
+    background-size: cover;
+    background-image: url(img/img.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+.container{
+    font-size:medium;
+    padding-top: 1%;
+    margin-left: 5%;
+
+}
+.donation{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-left: 5%;
+   
 }
