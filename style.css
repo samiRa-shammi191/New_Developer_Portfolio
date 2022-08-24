@@ -51,12 +51,11 @@ body{
 
  }
  .color{
-    color:rgb(89, 130, 7);
+    color:darkgreen;
     text-align: left;
     margin-left: 10px;
     width: 40%;
-    font-size: medium;
-    font-weight: bold;
+    font-size: ;
  }
  
  h5{
@@ -108,73 +107,79 @@ body{
     border-right-style: hidden ;
     margin-bottom: 30px;
   }
-  .donate{
+  .donate {
     text-decoration: none;
     background-image: linear-gradient(rgb(245, 93, 76), rgb(235, 81, 53));
     padding: 5px 10px;
     color: white;
     border-radius: 5px;
-    display:inline-block;
+    display: inline-block;
     margin-left: 45%;
-   
- }
 
- .donation-item {
+}
+
+.donation-item {
     width: 30%;
     margin-left: 30px;
     border-radius: 8px;
     display: inline-block;
     margin-right: 8px;
-    
+
 
 }
-.donation-plan{
-    display:flex;
-    margin-left:20%;
+
+.donation-plan {
+    display: flex;
+    margin-left: 20%;
 
 }
-.width{
+
+.width {
     width: 15%;
     margin-top: 40px;
     margin-left: 8px;
 }
+
 #food {
     background-color: rgb(200, 230, 240);
     margin-left: 12px;
     padding-left: 5px;
     margin-top: 3px;
     width: 25%;
-    line-height: 29px;
-    
-    
+    line-height: 25px;
+
+
 }
+
 #shelter {
-    background-color:rgb(251, 202, 209);
+    background-color: rgb(251, 202, 209);
     margin-left: 12px;
     padding-left: 5px;
     width: 25%;
     line-height: 42px;
-    
+
 
 }
-#education{
-  
-    background-color:rgb(250, 230, 203);
+
+#education {
+
+    background-color: rgb(250, 230, 203);
     margin-left: 12px;
     padding-left: 5px;
     width: 25%;
     line-height: 35px;
 }
-h3{
+
+h3 {
     text-align: left;
     margin-top: 15px;
 }
 
-.maroon{
-background-color: tomato;
+.maroon {
+    background-color: tomato;
 }
 
-.middle_banner{
+.middle_banner {
 
     width: 100%;
     background-size: cover;
@@ -183,14 +188,17 @@ background-color: tomato;
     padding-bottom: 10%;
     padding-top: 5%;
     box-shadow: 10px 10px 40px gray;
+    margin-bottom: 60px;
 }
-.container{
-    font-size:medium;
+
+.container {
+    font-size: medium;
     padding-top: 1%;
     margin-left: 5%;
 
 }
-.donation{
+
+.donation {
     text-decoration: none;
     background-image: linear-gradient(salmon, tomato);
     padding: 10px 40px;
@@ -198,5 +206,84 @@ background-color: tomato;
     font-weight: 700;
     border-radius: 15px;
     margin-left: 5%;
+
+}
+
+.box {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(238, 192, 174);
+    width: 50%;
+    margin: 4px 2px;
+    margin-left: 25%;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 400px;
+}
+
+.box .form input {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+
+}
+
+form .example input[ type="text"] {
+    padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(120, 119, 119);
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+
+}
+  form.example button {
+    
+    width: 20%;
+    padding: 10px 20px;
+    background:crimson;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+
    
+  }
+  .black{
+    background-color: black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 5%;
+    padding: 30px 0px;
+    margin: 200px 0px 0px 0px;
+    line-height: 7px;
+
+  }
+
+  .footer p{
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    
+
+  }
+  .black h3{
+color: crimson;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+  }
+  .black h6{
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+  }
+  .foot{
+    color: palevioletred;
 }
